@@ -18,6 +18,6 @@ public class PhoneBook {
 
     void get(String surname) {
 
-        System.out.println("Contact " + surname + ": " + phoneBooks.getOrDefault(surname, new HashSet<>()));
+        System.out.println(surname + ": " + phoneBooks.getOrDefault(surname, new HashSet<>()));
     }
 }
